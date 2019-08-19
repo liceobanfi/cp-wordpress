@@ -1,0 +1,33 @@
+/*
+Theme Name: Tema 2011 Child Theme
+Theme URI: http://sito-del-tema.com/
+Description: Descrizione del tuo child theme
+Author: Il tuo nome da sviluppatore
+Author URI: http://sito-autore.com
+Template: twentyeleven
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+Text Domain: twenty-eleven-child
+*/
+.attachment-twentyeleven-thumbnail-feature { 
+    float:left; 
+    margin:7px 7px 0 0; 
+    border:5px solid #dedede; 
+    background:#f0f0f0; 
+    padding:2px; 
+}
+
+.sidebar_left{
+    float:left;
+    /*width: 303px;*/
+    border: 2px solid #A2A2A2;
+    display: block;
+    float: left;
+    height: auto;
+    margin: -532px 0 -62px -123px
+    padding: 0;
+    top: auto;
+    width: auto;
+}
