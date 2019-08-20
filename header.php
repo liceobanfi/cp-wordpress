@@ -170,36 +170,7 @@
 			<?php endif; ?>
                         
 
-
-		<nav id="access" role="navigation">
-			<h3 class="assistive-text"><?php _e( 'Main menu', 'twentyeleven' ); ?></h3>
-
-				<?php wp_nav_menu( array( 'theme_location' => 'menu_1', 
-      				      'container' => false, 'menu_id' => false, 'menu_class' => false ) ); ?>
-		</nav>
-		<!-- /nav -->
-	
-    <div class="container">
-		<div class="item">
-			<a href="https://it.wikipedia.org/wiki/Bologna">
-				<img src="https://liceobanfi12.altervista.org/wp-content/uploads/2019/07/bologna.jpg" />
-			</a>
-		<p>Bologna</p>
-		</div>
-		<div class="item">
-			<a href="https://it.wikipedia.org/wiki/Ascoli">
-			<img src="https://liceobanfi12.altervista.org/wp-content/uploads/2019/07/ascoli.jpg" />
-			</a>
-			<p>Ascoli</p>
-		</div>
-		<div class="item">
-			<a href="https://it.wikipedia.org/wiki/Vigevano">
-			<img src="https://liceobanfi12.altervista.org/wp-content/uploads/2019/07/vigevano.jpg" alt="Food Image" />
-			</a>
-			<p>Vigevano</p>
-		</div>
-
-	</div>
+<h1 style="background-color:red;color:white;border:2px solid black;">[DEBUG] header.php > custom index header</h1>
     </header><!-- #branding -->
 
 

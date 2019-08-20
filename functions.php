@@ -6,11 +6,26 @@ function my_theme_enqueue_styles() {
 }
 ?>
 <?php
-add_action( 'after_setup_theme', 'register_my_menu' );
-function register_my_menu() {
-  register_nav_menu( 'menu_1', __( 'Top Menu', 'theme-slug' ) );
+#https://www.wpbeginner.com/wp-themes/how-to-add-custom-navigation-menus-in-wordpress-3-0-themes/
+/* add_action( 'after_setup_theme', 'register_my_menu' ); */
+/* function register_my_menu() { */
+/*   register_nav_menu( 'menu_1', __( 'Top Menu', 'theme-slug' ) ); */
+/* } */
+
+
+function wpb_custom_new_menu() {
+  register_nav_menus(
+    array(
+      's-anastasia-menu' => __( 'menu parrocchia s. anastasia' ),
+      's-fiorano-menu' => __( 'menu parrocchia s. fiorano' ),
+      's-giorgio-menu' => __( 'menu parrocchia s. giorgio' )
+    )
+  );
 }
+add_action( 'init', 'wpb_custom_new_menu' );
+
 ?>
+
 <?php add_image_size( 'twentyeleven-thumbnail-feature', 100, 100); ?>
 
 <?php
@@ -19,7 +34,7 @@ function my_custom_01_sidebar()
 {
 	register_sidebar(
 		array (
-			'name' => __( 'Custom-01', 'twentyeleven' ),
+			'name' => __( 's-anastasia', 'twentyeleven' ),
 			'id' => 'custom-01-side-bar',
 			'description' => __( 'Custom 01 Sidebar', 'twentyeleven' ),
 		)
@@ -31,7 +46,7 @@ add_action( 'widgets_init', 'my_custom_01_sidebar' );
 
 <?php
 
-add_action( 'after_setup_theme', 'remove_twentyeleven_body_classes' );
+/* add_action( 'after_setup_theme', 'remove_twentyeleven_body_classes' ); */
 
 function remove_twentyeleven_body_classes() {
 remove_filter( 'body_class', 'twentyeleven_body_classes' );
