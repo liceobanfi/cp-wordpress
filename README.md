@@ -39,7 +39,11 @@ per farlo:
 - aprire tramite il proprio client sql preferito il database di wordpress, e cancellare il contenuto di tutte le tabelle a eccezione di:
 `wp-users`, `wp-usermeta`, `wp-options` (nota: il prefisso `wp-` potrebbe non esserci o essere diverso)
 - svuotare il contenuto della tabella `wp-options` lasciando le prime due righe. si può fare utilizzando questo script:
-  DELETE FROM `wp_options` WHERE `wp_options`.`option_id` != 1 AND `wp_options`.`option_id` != 2
+
+
+      DELETE FROM `wp_options` WHERE `wp_options`.`option_id` != 1 AND `wp_options`.`option_id` != 2
+
+
 - importare il database di demo contenuto nel file sql `demo-wp-db.php` (questo file non si trova nella repository online)
 
 **5**
