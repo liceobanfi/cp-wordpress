@@ -14,7 +14,7 @@
  */
 
 	/* CARICA l'HEADER ROSSO */
-	get_header('rosso'); 
+	get_header('fiorano'); 
 ?>
 
 
