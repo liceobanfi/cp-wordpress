@@ -21,7 +21,7 @@ una volta terminato il trasferimento. dopodichè segeundo i passaggi indicati
 
 installare il tema personalizzato.
 per farlo, aprire la cartella dove è installato wordpress, e in `/wp-content/themes/`
-creare una nuova cartella (nome a piacere, es. `tema-test`) e incollarci tutto il contenuto di questa repository
+creare una nuova cartella  `v05-tema2011-child` e incollarci tutto il contenuto di questa repository
 (tranne la cartella `.git` se è presente)
 
 **3**
@@ -30,7 +30,7 @@ attivare il tema personalizzato.
 per farlo:
 - andare nel pannello di controllo di wordpress
 - nella sezione temi, cercare e installare dallo store il tema twentieleven
-- nella sezione temi scaricati, cercare il tema che ha come nome il nome della cartella creata nel passaggio 2 e installarlo
+- nella sezione temi scaricati, cercare il tema che ha come nome `v05-tema2011-child` e installarlo
 
 **4**
 
