@@ -24,6 +24,12 @@ per farlo, aprire la cartella dove è installato wordpress, e in `/wp-content/th
 creare una nuova cartella  `v05-tema2011-child` e incollarci tutto il contenuto di questa repository
 (tranne la cartella `.git` se è presente)
 
+-- metodo alternativo, se si vuole utilizzare git:
+- in `/wp-content/themes/` creare una nuova cartella  `v05-tema2011-child`
+- se si usa windows, aprire la bash di git all'interno della cartella appena creata, e eseguire il comando `git init`
+- eseguire il comando `git remote add upstream https://github.com/liceobanfi/cp-wordpress.git`
+- eseguire il comando `git pull upstream master`
+
 **3**
 
 attivare il tema personalizzato.
