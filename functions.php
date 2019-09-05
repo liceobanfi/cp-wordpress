@@ -46,14 +46,14 @@ function register_custom_sidebar() {
     register_sidebar(
         array (
             'name' => __( 'barra laterale s. fiorano', 'twentyeleven' ),
-            'id' => 'fiorano-side-bar',
+            'id' => 'fiorano-side-bar'
           )
         );
 
     register_sidebar(
         array (
             'name' => __( 'barra laterale s. giorgio', 'twentyeleven' ),
-            'id' => 'giorgio-side-bar',
+            'id' => 'giorgio-side-bar'
           )
         );
 }
