@@ -76,7 +76,7 @@ function check_pages_live(){
   create_page_if_null('s-fiorano', 'S. Fiorano');
   create_page_if_null('s-giorgio', 'S. Giorgio');
     }
-    add_action('init','check_pages_live');
+//    add_action('init','check_pages_live');
     function create_pages_fly($pageName, $pageTitle) {
         $createPage = array(
           'post_title'    => $pageName,

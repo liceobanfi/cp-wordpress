@@ -151,7 +151,9 @@
 							$header_image_height = HEADER_IMAGE_HEIGHT;
 						}
 						?>
+<!--
 					<img src="<?php header_image(); ?>" width="<?php echo esc_attr( $header_image_width ); ?>" height="<?php echo esc_attr( $header_image_height ); ?>" alt="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" />
+-->
 				<?php endif; // end check for featured image or standard header ?>
 			</a>
 			<?php endif; // end check for removed header image ?>
