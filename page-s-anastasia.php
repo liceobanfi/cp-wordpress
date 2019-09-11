@@ -29,7 +29,7 @@
   $is_homepage = $pagename == 's-' . $template_parish;
 
 	/* CARICA l'HEADER PERSONALIZZATO */
-	get_header();
+	get_header($template_parish);
 ?>
 
 
@@ -89,7 +89,8 @@
 
 
 
-<?php get_sidebar(); ?>
+<?php //get_sidebar(); ?>
+<?php get_sidebar($template_parish); ?>
 <?php get_footer(); ?>
 
 
